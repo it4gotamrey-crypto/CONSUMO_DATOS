@@ -1,10 +1,14 @@
-# Consumo v1.6 · sin internet y con descarga Excel
+# Consumo v1.6.1 · sin internet y con descarga Excel
 
 **Versión elegida para probar ahora:** un HTML local, sin usuarios propios y sin servidor.
 
 [**Descargar para Android (.zip)**](https://github.com/it4gotamrey-crypto/CONSUMO_DATOS/raw/refs/heads/entrega-consumo-permisos/entregas/consumo-sin-internet.zip)
 
 [Descargar solamente el HTML](https://github.com/it4gotamrey-crypto/CONSUMO_DATOS/raw/refs/heads/entrega-consumo-permisos/entregas/consumo-sin-internet.html)
+
+## Versión 1.6.1
+
+Se eliminaron **Guardar panel**, **Copiar HTML** y **Descargar panel** de la aplicación, incluida la función que mostraba el código completo. Se conservan importar Excel, respaldar/restaurar JSON, descargar Excel/CSV e imprimir. Esta eliminación es una mejora de la interfaz; un archivo HTML local continúa siendo copiable y modificable como archivo.
 
 ## Descargar Excel
 

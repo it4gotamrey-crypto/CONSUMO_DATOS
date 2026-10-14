@@ -19,6 +19,10 @@ Las capturas se guardan en el navegador y dispositivo que uses. No se comparten 
 
 Puedes capturar, revisar, ver los históricos, elegir una o varias gráficas, ajustar su tamaño y preparar la impresión sin conexión. La impresión física depende del servicio de impresión del celular y de cómo se conecte a la impresora; generar el reporte no necesita el servidor de Artron.
 
+## Interfaz sin exportación del código
+
+La versión **1.6.1** elimina las opciones **Guardar panel**, **Copiar HTML** y **Descargar panel**. Se conservan importación de Excel, respaldos JSON, descarga del reporte en Excel/CSV e impresión. Esto retira la función de copiar el programa desde su interfaz; un archivo HTML local sigue siendo un archivo que su propietario puede copiar o modificar.
+
 ## Descargar Excel (.xlsx)
 
 En **Respaldar y exportar**, pulsa **Descargar Excel**. También está disponible en **Capturas mensuales**. Genera un archivo `.xlsx` real sin conexión, con ocho pestañas: Resumen, Capturas, Detalle apps, Por aplicación, Por usuario, Por departamento, Por período y Estado equipos.
