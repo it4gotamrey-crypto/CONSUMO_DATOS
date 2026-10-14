@@ -1,4 +1,4 @@
-# Consumo para Artron · usuarios y permisos · v1.6
+# Consumo para Artron · usuarios y permisos · v1.7
 
 Esta entrega incorpora un servidor real y una base SQLite compartida. Los permisos se aplican en la API, incluso si alguien cambia el HTML o envía solicitudes manualmente. Está preparada y probada en el entorno de desarrollo; todavía no está instalada en el servidor de Artron.
 

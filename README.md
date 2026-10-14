@@ -1,40 +1,33 @@
-# Consumo v1.6.1 · sin internet y con descarga Excel
-
-**Versión elegida para probar ahora:** un HTML local, sin usuarios propios y sin servidor.
+# Consumo v1.7 · sin internet, Excel y reporte editable
 
 [**Descargar para Android (.zip)**](https://github.com/it4gotamrey-crypto/CONSUMO_DATOS/raw/refs/heads/entrega-consumo-permisos/entregas/consumo-sin-internet.zip)
 
-[Descargar solamente el HTML](https://github.com/it4gotamrey-crypto/CONSUMO_DATOS/raw/refs/heads/entrega-consumo-permisos/entregas/consumo-sin-internet.html)
+Un único HTML local, sin usuarios propios y sin servidor. [Guía completa](USO_SIN_INTERNET.md).
 
-## Versión 1.6.1
+## Vista previa antes de imprimir
 
-Se eliminaron **Guardar panel**, **Copiar HTML** y **Descargar panel** de la aplicación, incluida la función que mostraba el código completo. Se conservan importar Excel, respaldar/restaurar JSON, descargar Excel/CSV e imprimir. Esta eliminación es una mejora de la interfaz; un archivo HTML local continúa siendo copiable y modificable como archivo.
+**Imprimir reporte** abre una vista editable con las páginas que se imprimirán. Elige solo gráficas, solo tablas o ambas, activa el detalle de capturas y mueve/redimensiona las gráficas. Ajusta ancho, alto, orden y orientación A4. La selección puede ser distinta para cada bloque. Las tablas largas repiten encabezados al dividirse por páginas.
 
-## Descargar Excel
+Al finalizar, pulsa **Imprimir / Guardar PDF**. En el navegador elige el mismo papel y orientación, escala 100% y desactiva los encabezados y pies del navegador.
 
-En **Respaldar y exportar**, pulsa **Descargar Excel**. También aparece en **Capturas mensuales**. El archivo `.xlsx` incluye ocho hojas con las capturas y los resúmenes por aplicación, usuario, departamento y período. Funciona sin internet, respeta los filtros y excluye pendientes de los totales validados.
-
-Antes de cambiar tu HTML por esta versión, crea un **respaldo JSON** del anterior. Si el navegador abre el archivo actualizado como una copia nueva, restaura ese JSON para conservar las capturas.
+[Ver la vista previa](entregas/vista-previa-impresion.png) · [PDF de ejemplo con datos ficticios](entregas/reporte-ejemplo.pdf)
 
 ## Abrir en Android
 
-1. Descarga el ZIP. Si GitHub abre la ficha del archivo, pulsa **Download raw file**.
-2. En **Archivos / Descargas**, extrae el ZIP.
-3. Abre **consumo-sin-internet.html** con un navegador compatible con HTML local; elige Chrome si tu teléfono lo ofrece y ejecuta correctamente la aplicación.
-4. Pulsa **Nueva captura** o importa un respaldo JSON/Excel.
+1. Descarga el ZIP y extráelo en **Archivos / Descargas**.
+2. Abre **consumo-sin-internet.html** con un navegador compatible con HTML local; prueba Chrome si tu teléfono lo ofrece y ejecuta la aplicación correctamente.
+3. Captura los datos o importa tu respaldo JSON/Excel.
 
-No necesita instalación de servidor ni usuario/contraseña. El navegador debe ejecutar JavaScript y permitir almacenamiento local. Si Android solo muestra una vista previa, los botones podrían no funcionar; hay que abrir el archivo con un navegador compatible.
+La descarga comienza vacía para no publicar capturas privadas. Antes de cambiar el HTML anterior, conserva un **respaldo JSON** y comprueba su restauración. Los datos permanecen en ese dispositivo y navegador.
 
-La descarga comienza vacía para no publicar tus capturas privadas. Los datos se guardan en ese dispositivo/navegador: usa los respaldos para conservarlos. Antes de cambiar de archivo o navegador, respalda el panel anterior.
+## Descargar Excel
 
-Guía completa: [USO_SIN_INTERNET.md](USO_SIN_INTERNET.md).
+Pulsa **Descargar Excel** en **Respaldo y exportación** o **Capturas mensuales**. El `.xlsx` contiene ocho hojas de detalles y resúmenes, respeta los filtros y excluye pendientes de los totales validados. Funciona sin internet.
 
-## Integración final con Artron
+Las opciones **Guardar panel**, **Copiar HTML** y **Descargar panel** siguen eliminadas. Un HTML local continúa siendo un archivo copiable/modificable; los datos oficiales se protegerán en el servidor cuando se integre a Artron.
 
-Se reutilizarán **el login y los permisos existentes de Artron**, sin añadir usuarios propios del módulo. La conexión con el servidor de Artron está pendiente. Instrucciones para su equipo: [INTEGRACION_LOGIN_ARTRON.md](INTEGRACION_LOGIN_ARTRON.md).
+## Integración final
 
-El HTML personal sin conexión puede copiarse/modificarse; la protección de los datos oficiales se aplica en el servidor de Artron cuando se realice la integración.
+Se reutilizarán el login y los permisos existentes de Artron. La conexión real con su API está pendiente. Ver [INTEGRACION_LOGIN_ARTRON.md](INTEGRACION_LOGIN_ARTRON.md).
 
-## Alternativa anterior: servidor independiente
-
-Se conserva [el paquete anterior con servidor y cuentas propias](entregas/consumo-artron-con-permisos.zip) y [su guía](INSTALACION_SERVIDOR.md) como referencia. **No se necesita para la prueba sin internet y no es el mecanismo de acceso elegido para Artron.**
+Se conserva [el servidor independiente anterior](entregas/consumo-artron-con-permisos.zip) y [su guía](INSTALACION_SERVIDOR.md) como alternativa técnica. No son necesarios para usar el HTML sin red y no corresponden al mecanismo de acceso elegido para Artron.

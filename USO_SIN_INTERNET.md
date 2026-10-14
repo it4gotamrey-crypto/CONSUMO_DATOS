@@ -31,6 +31,18 @@ Respeta los filtros de período, departamento y búsqueda. Los pendientes quedan
 
 Excel es el reporte para consultar y trabajar con los datos. Para trasladar todas tus capturas al actualizar el HTML o restaurar el panel, conserva el **respaldo JSON**. Antes de sustituir tu archivo anterior, expórtalo y comprueba su restauración en el nuevo archivo.
 
+## Vista previa e impresión · v1.7
+
+**Imprimir reporte** abre primero una vista previa editable dentro del panel. No abre directamente la ventana del navegador.
+
+- Elige **Solo gráficas**, **Solo tablas** o **Gráficas y tablas**. También puedes cambiar esa elección para cada bloque.
+- Marca qué análisis mostrar, si quieres indicadores de resumen y si deseas incluir la tabla de capturas.
+- Mueve las gráficas con el asa o las flechas; cambia ancho y alto con los controles o la esquina. En el celular, los controles laterales facilitan los ajustes pequeños.
+- Elige A4 horizontal o vertical y revisa las páginas antes de confirmar. Las tablas largas se distribuyen con sus encabezados repetidos.
+- Pulsa **Imprimir / Guardar PDF**. En la ventana del navegador usa el mismo tamaño y orientación, escala 100% y desactiva sus encabezados/pies de página para que no aparezcan fecha, dirección del archivo o numeración extra.
+
+Los filtros e intervalos de datos se eligen en el panel antes de abrir la vista previa. La selección del panel se propone al usar la vista por primera vez; después se conservan los ajustes propios de impresión, que puedes sustituir con **Selección actual**. Estos ajustes no modifican las capturas y funcionan sin red. Se mantiene eliminada la opción de mostrar/copiar el HTML.
+
 ## Cuando se integre a Artron
 
 La decisión actual es **reutilizar el login y los permisos que Artron ya tiene**, sin agregar cuentas o contraseñas propias a este módulo. Ver [INTEGRACION_LOGIN_ARTRON.md](INTEGRACION_LOGIN_ARTRON.md).
