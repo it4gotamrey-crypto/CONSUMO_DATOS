@@ -1,17 +1,30 @@
-# Consumo para Artron · entrega v1.5
+# Consumo · usar sin internet
 
-[**Descargar el sistema con usuarios y permisos (.zip)**](https://github.com/it4gotamrey-crypto/CONSUMO_DATOS/raw/refs/heads/entrega-consumo-permisos/entregas/consumo-artron-con-permisos.zip)
+**Versión elegida para probar ahora:** un HTML local, sin usuarios propios y sin servidor.
 
-Si GitHub muestra la página del archivo, pulsa **Download raw file** (Descargar archivo sin procesar). Si el repositorio es privado, inicia sesión con una cuenta que tenga acceso.
+[**Descargar para Android (.zip)**](https://github.com/it4gotamrey-crypto/CONSUMO_DATOS/raw/refs/heads/entrega-consumo-permisos/entregas/consumo-sin-internet.zip)
 
-## Contenido
+[Descargar solamente el HTML](https://github.com/it4gotamrey-crypto/CONSUMO_DATOS/raw/refs/heads/entrega-consumo-permisos/entregas/consumo-sin-internet.html)
 
-El ZIP incluye la interfaz compilada, servidor Node.js 24, código fuente, pruebas y guía de instalación. Permisos: **Administrador**, **Capturista** y **Consulta**. Las validaciones y permisos se aplican en el servidor; se conserva un registro de cambios.
+## Abrir en Android
 
-El paquete no incluye las capturas privadas de JULIO ni cuentas o contraseñas predeterminadas.
+1. Descarga el ZIP. Si GitHub abre la ficha del archivo, pulsa **Download raw file**.
+2. En **Archivos / Descargas**, extrae el ZIP.
+3. Abre **consumo-sin-internet.html** con un navegador compatible con HTML local; elige Chrome si tu teléfono lo ofrece y ejecuta correctamente la aplicación.
+4. Pulsa **Nueva captura** o importa un respaldo JSON/Excel.
 
-## Instalación
+No necesita instalación de servidor ni usuario/contraseña. El navegador debe ejecutar JavaScript y permitir almacenamiento local. Si Android solo muestra una vista previa, los botones podrían no funcionar; hay que abrir el archivo con un navegador compatible.
 
-Requiere un servidor. El equipo de Artron debe seguir [INSTALACION_SERVIDOR.md](INSTALACION_SERVIDOR.md), configurar HTTPS y crear el primer administrador. Después se importa el respaldo de las capturas actuales desde la cuenta del administrador.
+La descarga comienza vacía para no publicar tus capturas privadas. Los datos se guardan en ese dispositivo/navegador: usa los respaldos para conservarlos. Antes de cambiar de archivo o navegador, respalda el panel anterior.
 
-Esta entrega prepara el sistema para su instalación; todavía no se ha desplegado en Artron. El HTML local anterior conserva su funcionamiento independiente y no ofrece la protección del servidor.
+Guía completa: [USO_SIN_INTERNET.md](USO_SIN_INTERNET.md).
+
+## Integración final con Artron
+
+Se reutilizarán **el login y los permisos existentes de Artron**, sin añadir usuarios propios del módulo. La conexión con el servidor de Artron está pendiente. Instrucciones para su equipo: [INTEGRACION_LOGIN_ARTRON.md](INTEGRACION_LOGIN_ARTRON.md).
+
+El HTML personal sin conexión puede copiarse/modificarse; la protección de los datos oficiales se aplica en el servidor de Artron cuando se realice la integración.
+
+## Alternativa anterior: servidor independiente
+
+Se conserva [el paquete anterior con servidor y cuentas propias](entregas/consumo-artron-con-permisos.zip) y [su guía](INSTALACION_SERVIDOR.md) como referencia. **No se necesita para la prueba sin internet y no es el mecanismo de acceso elegido para Artron.**
