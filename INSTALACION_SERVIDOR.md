@@ -1,4 +1,4 @@
-# Consumo para Artron · usuarios y permisos · v1.5
+# Consumo para Artron · usuarios y permisos · v1.6
 
 Esta entrega incorpora un servidor real y una base SQLite compartida. Los permisos se aplican en la API, incluso si alguien cambia el HTML o envía solicitudes manualmente. Está preparada y probada en el entorno de desarrollo; todavía no está instalada en el servidor de Artron.
 
@@ -15,7 +15,7 @@ El HTML local anterior sigue siendo una herramienta personal: no protege datos o
 | Confirmar consumos atípicos | Sí | No | No |
 | Importar Excel o restaurar JSON, incluidos pendientes | Sí | No | No |
 | Administrar accesos y consultar el registro de cambios | Sí | No | No |
-| Respaldar JSON y exportar CSV desde el panel | Sí | No | No |
+| Respaldar JSON y exportar CSV/Excel desde el panel | Sí | No | No |
 
 Capturista puede crear capturas de los equipos del módulo. No se ha definido una restricción por departamento o usuario asignado. Consulta puede leer los datos mostrados en el panel; el permiso de lectura permite conservar una copia de la información que ya puede ver. El código que ejecuta un navegador también es visible. La protección consiste en impedir cambios no autorizados en el servidor.
 

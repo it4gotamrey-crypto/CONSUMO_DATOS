@@ -1,10 +1,16 @@
-# Consumo · usar sin internet
+# Consumo v1.6 · sin internet y con descarga Excel
 
 **Versión elegida para probar ahora:** un HTML local, sin usuarios propios y sin servidor.
 
 [**Descargar para Android (.zip)**](https://github.com/it4gotamrey-crypto/CONSUMO_DATOS/raw/refs/heads/entrega-consumo-permisos/entregas/consumo-sin-internet.zip)
 
 [Descargar solamente el HTML](https://github.com/it4gotamrey-crypto/CONSUMO_DATOS/raw/refs/heads/entrega-consumo-permisos/entregas/consumo-sin-internet.html)
+
+## Descargar Excel
+
+En **Respaldar y exportar**, pulsa **Descargar Excel**. También aparece en **Capturas mensuales**. El archivo `.xlsx` incluye ocho hojas con las capturas y los resúmenes por aplicación, usuario, departamento y período. Funciona sin internet, respeta los filtros y excluye pendientes de los totales validados.
+
+Antes de cambiar tu HTML por esta versión, crea un **respaldo JSON** del anterior. Si el navegador abre el archivo actualizado como una copia nueva, restaura ese JSON para conservar las capturas.
 
 ## Abrir en Android
 
